@@ -1,5 +1,5 @@
 # Aim
-This is the modular version of [AV_Navigation](https://github.com/Yigit-Kuyu/AV_Navigation) package. Similar to it, this package takes a map as pgm file and implements A* algorithm to find a root with two options (with/without direction). In differences, this module publishes the custom message that includes x and y coordinates of the pgm file on "AV_Navigation" topic. The file, subs_coord.cpp, is designed to listen to these messages on the same topic, with ROS Noetic, Ubuntu 20.04, Python 3.8.
+This is the modular version of [AV_Navigation](https://github.com/Yigit-Kuyu/AV_Navigation) package. Similar to it, this package takes a map as pgm file and implements A* algorithm to find a root with two options (with/without direction). In differences, this module publishes the custom message that includes x and y coordinates of the pgm file on "AV_Navigation" topic. The file, subs_coord.cpp, is designed to listen to these messages on the same topic, with ROS Noetic, Ubuntu 20.04, C++ 17.
 
 # Implementation for astar-gridmap-2d_ros1 (main module)
   ```
